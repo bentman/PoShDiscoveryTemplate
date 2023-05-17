@@ -29,6 +29,10 @@ The PoSh Discovery Report Template is a simple framework for automating the proc
 
 Make sure to customize the snippets based on your specific environment and requirements.
 
+## Contributions
+
+Contributions are welcome. Please open an issue or submit a pull request.
+
 ### GNU General Public License
 This script is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
