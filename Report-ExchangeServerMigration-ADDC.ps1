@@ -45,7 +45,7 @@
     Version: 1.0
     Creation Date: 2023-05-09
     Copyright (c) 2023 https://github.com/bentman
-    https://github.com/bentman/PoShDiscoveryTemplate/upload/main
+    https://github.com/bentman/PoShDiscoveryTemplate
 #>
 
 # Set report name
