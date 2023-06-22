@@ -28,9 +28,9 @@
 
 .NOTES
     Version: 1.0
-    Author: Bentley
     Creation Date: 2023-05-09
-    https://github.com/bentman/PoShDiscoveryTemplate/upload/main
+    Copyright (c) 2023 https://github.com/bentman
+    https://github.com/bentman/PoShDiscoveryTemplate
 #>
 
 # Set report name
