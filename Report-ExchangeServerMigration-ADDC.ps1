@@ -1,7 +1,6 @@
 ﻿<#
 .SYNOPSIS
     Collects details from an on-prem Active Directory domain controller server in preparation for a migration to Outlook Online.
-
 .DESCRIPTION
     This PowerShell script collects various details from an on-prem Active Directory domain controller server to assist with planning a migration to Outlook Online. 
     - Server network details, including domain NetBIOS name, domain FQDN, IP address, subnet mask, default gateway, and DNS servers.
@@ -29,18 +28,14 @@
     - All Exchange Certificate Details
     - Application and System Event Logs Warnings, Errors, Critical (past 15 days) without duplicates
     If cannot connect to EMC, then run Report-ExchangeServerMigration-Exchange.ps1 from Exchange server itself
-
 .PARAMETER None
     This script does not require any parameters to be passed.
-
 .EXAMPLE !!! Set-Execution Policy to Bypass !!!
     Set-ExecutionPolicy -Scope Process Bypass -Force
     .\Report-ExchangeServerMigration-ADDC.ps1
     Runs the script and generates a report file  on the desktop with details collected from the domain controller.
-
 .NOTES
-    This script must be run as a domain local administrator with appropriate Active Directory permissions on ADDC.
-
+    This script must be run as a local administrator with appropriate Active Directory permissions on ADDC.
 .NOTES
     Version: 1.0
     Creation Date: 2023-05-09
