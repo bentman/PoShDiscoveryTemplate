@@ -1,7 +1,6 @@
 ﻿<#
 .SYNOPSIS
     Generates a report with details collected from an on-prem Exchange Server for migration to Outlook Online.
-
 .DESCRIPTION
     This PowerShell script collects various details from an on-prem Exchange server to assist with planning a migration to Outlook Online. 
     This script generates a text report with the following details:
@@ -17,15 +16,12 @@
     - Internal and External Entries for ECP, EAS, EWS, OAB, OWA, PowerShell
     - All Exchange Certificate Details
     - Application and System Event Logs Warnings, Errors, Critical (past 15 days) without duplicates
-
 .EXAMPLE !!! Set-Execution Policy to Bypass !!!
     Set-ExecutionPolicy -Scope Process Bypass -Force
     .\Report-ExchangeServerMigration-Exchange.ps1
     Runs the script and generates a report file on the desktop with details collected from the Exchange server.
-
 .NOTES
     This script must be run as a local administrator with appropriate Exchange permissions on Exchange Server.
-
 .NOTES
     Version: 1.0
     Creation Date: 2023-05-09
